@@ -10,7 +10,7 @@
 
  // For making our code to work we need to remove the new keyword and then add an identifier
 
- val changedKeyword : String = "Mercator"
+ val `new` : String = "Mercator"
 
  /*
   There are several other keywords we cannot use a identifier

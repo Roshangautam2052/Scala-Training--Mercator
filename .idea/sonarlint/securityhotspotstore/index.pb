@@ -36,3 +36,17 @@ c
 3src/main/scala/Week1/tue/afternoontask/Extension.sc,2/1/211d991c834791c0c7619762f63844e293f9c3e2
 b
 2src/main/scala/Week1/tue/afternoontask/Research.sc,0/8/0895b7970b19cd101ab0e0e4b3b74afb37e32332
+Z
+*src/main/scala/Week1/wed/Interpolation .sc,1/4/14de018452a554f6d556d09fb47f600a731e26ff
+Q
+!src/main/scala/Week1/wed/Task1.sc,1/b/1b9a31cc5b859a9cbe23a4e758e0bb64085aabba
+R
+"src/main/scala/Week1/wed/IfElse.sc,9/1/91d9b897fa60098dbcd8c6a02b3e4d5a0379be40
+W
+'src/main/scala/Week1/wed/Task2IfElse.sc,0/e/0e30823de13eb1af99ad6333940a36179140a3f5
+]
+-src/main/scala/Week1/wed/afternoontask/MVP.sc,1/0/10223c10327865614637d35cc9728490fe15c767
+c
+3src/main/scala/Week1/wed/afternoontask/Extension.sc,9/d/9d857f85208a09e202cea4cced6c439eac9fb97c
+b
+2src/main/scala/Week1/wed/afternoontask/Research.sc,c/1/c11c61f481b4196adb77ba868c9e0bd77953b111
