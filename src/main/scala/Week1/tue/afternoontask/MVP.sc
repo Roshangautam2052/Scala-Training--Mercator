@@ -31,4 +31,7 @@ println("I love Scala already")
 Have a play in a scala worksheet using everything we have learnt today.
  What is possible? What isn't? Is there anything
 that you have done that you think is pretty cool or that's strange?
+At this moment, I did not find anything that is not possible in scala,
+one strange thing I noticed about scala worksheet is that it does not have an entry point of
+a program.
  */
