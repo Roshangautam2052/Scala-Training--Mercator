@@ -19,7 +19,7 @@ val hasBag: Boolean = false
 // Condition to evaluate John can buy or carry watermelons or not
 if (numberOfWaterMelons > 0) {
   if (numberOfWaterMelons <= 5) {
-    if (numberOfWaterMelons > 0 && numberOfWaterMelons <= 3) {
+    if ( numberOfWaterMelons <= 3) {
       println(s"You can buy $numberOfWaterMelons watermelons.")
       println(s"You don't need a bag.")
       println(f"Your total price for watermelon is ${numberOfWaterMelons * 1.397}%.2f£.")

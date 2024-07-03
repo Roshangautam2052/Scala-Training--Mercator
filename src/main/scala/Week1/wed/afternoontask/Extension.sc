@@ -1,9 +1,9 @@
 /*
  1.Operator precedence determines the grouping of terms in an expression. This affects how an expression is evaluated.
  Certain operators have higher precedence than others.
- !--> negation has higher precedence
- && --> Logical conjunction
- || --> logical disjunction
+ !--> negation has highest precedence
+ && --> Logical conjunction has second highest precedence
+ || --> logical disjunction has least precedence among other operators
  We can found it in official scala documentation.
 
  */
