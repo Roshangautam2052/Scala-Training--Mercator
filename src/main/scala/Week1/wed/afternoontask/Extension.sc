@@ -4,7 +4,7 @@
  !--> negation has highest precedence
  && --> Logical conjunction has second highest precedence
  || --> logical disjunction has least precedence among other operators
- We can found it in official scala documentation.
+ We can find it in official scala documentation.
 
  */
  //2. true|| false && false

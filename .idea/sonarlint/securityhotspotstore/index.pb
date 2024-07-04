@@ -50,3 +50,13 @@ c
 3src/main/scala/Week1/wed/afternoontask/Extension.sc,9/d/9d857f85208a09e202cea4cced6c439eac9fb97c
 b
 2src/main/scala/Week1/wed/afternoontask/Research.sc,c/1/c11c61f481b4196adb77ba868c9e0bd77953b111
+W
+'src/main/scala/Week1/thu/Collections.sc,9/a/9a136f80a0cd56ff102fe9a225cc8a73e6424781
+Q
+!src/main/scala/Week1/thu/Task1.sc,e/5/e5f1a4fc4191f4854fe8060eaa1db05c62af1497
+]
+-src/main/scala/Week1/thu/afternoontask/MVP.sc,5/e/5e441c22ab2060e72f5abc586d22b13c061ea283
+d
+4src/main/scala/Week1/thu/afternoontask/Extension .sc,5/2/52f7fa29f88bae93859feea04b6810cd5b0df31a
+b
+2src/main/scala/Week1/thu/afternoontask/Reserach.sc,3/6/36ab70f11af87e2b2233c1828596027bfad11fa6
