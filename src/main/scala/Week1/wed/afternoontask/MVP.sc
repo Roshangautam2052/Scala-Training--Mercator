@@ -13,8 +13,8 @@ c) Can't carry them
 Can this be done without using "else if"?
 6. The store puts their prices in a foreign currency, so the conversion rate to £ means one watermelon is £1.397. Calculate and use string interpolation to display the total cost of John's purchase to 2 decimal places - which type is most appropriate here?
  */
-val numberOfWaterMelons: Int = 2
-val hasBag: Boolean = false
+val numberOfWaterMelons: Int = 5
+val hasBag: Boolean = true
 
 // Condition to evaluate John can buy or carry watermelons or not
 if (numberOfWaterMelons > 0) {
@@ -30,7 +30,7 @@ if (numberOfWaterMelons > 0) {
         println(f"Your total price for watermelon is ${numberOfWaterMelons * 1.397}%.2f£.")
       }
       else {
-        println(s"You cannot buy the $numberOfWaterMelons watermelons.")
+        println(s"You cannot buy $numberOfWaterMelons watermelons.")
         println(s"You will need a bag.")
       }
 

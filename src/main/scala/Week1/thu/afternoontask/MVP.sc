@@ -8,17 +8,17 @@ val numbers: List[Int] = List(1, 2, 3, 4, 5)
 val primaryColors: Seq[String] = Seq("Red", "Blue", "Yellow", "Green")
 
 //b.Multiply all values in the list by 3
-val multipliedNumbers: List[Int] = numbers.map{
+val multipliedNumbers: List[Int] = numbers.map {
   number => number * 3
 }
-println(s"The multiplied Numbers are $multipliedNumbers.")
+println("The multiplied Numbers are " + multipliedNumbers.mkString(","))
 
 //c. Remove "Blue" from the Sequence
-val removedBlueColorSequence: Seq[String] = primaryColors.filter{
+val removedBlueColorSequence: Seq[String] = primaryColors.filter {
   colors => colors != "Blue"
 }
 
-println(s"The new sequence of colors after removing Blue is $removedBlueColorSequence.")
+println("The new sequence of colors after removing Blue is " + removedBlueColorSequence.mkString(","))
 
 //d.Finding Boolean value which contains Orange or not
 val containsOrange: Boolean = primaryColors.contains("Orange")
@@ -37,13 +37,13 @@ numbers.foreach(num => println(num % 2 != 0))
 //  "three" -> 3
 //)
 val dogNames: List[String] = List("Oliver", "Poppy", "Tommy", "Molly")
-val catNames:List[String] = List("Whisker", "Luna", "Shadow", "Bella")
+val catNames: List[String] = List("Whisker", "Luna", "Shadow", "Bella")
 val davidPets: Map[String, List[String]] = Map(
-    "cat" -> catNames,
-    "dog" -> dogNames
+  "cat" -> catNames,
+  "dog" -> dogNames
 )
 //4.printing out the names of dogs of david
 val davidDogNames: List[String] = davidPets("dog")
-println("David's dog names are:" + davidDogNames.mkString(" , ") )
+println("David's dog names are: " + davidDogNames.mkString(" , "))
 
 
