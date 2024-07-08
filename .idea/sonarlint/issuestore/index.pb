@@ -60,3 +60,5 @@ d
 4src/main/scala/Week1/thu/afternoontask/Extension .sc,5/2/52f7fa29f88bae93859feea04b6810cd5b0df31a
 b
 2src/main/scala/Week1/thu/afternoontask/Reserach.sc,3/6/36ab70f11af87e2b2233c1828596027bfad11fa6
+U
+%src/main/scala/Week1/frid/Classes .sc,e/d/edf8e19cd54d5130a74c03cfca6226584ed08aff
