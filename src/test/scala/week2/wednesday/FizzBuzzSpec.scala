@@ -2,12 +2,12 @@ package week2.wednesday
 
 import org.scalatest.FlatSpec
 
-class FizzBuzzSpec {
 
 class FizzBuzzSpec extends FlatSpec {
   val testFizzBuzz = new FizzBuzz(3)
   "checkFizzBuzz" should "check whether the function returns " +
     "Fizz if divisible by 3 " in {
+
     assert(
         testFizzBuzz.checkFizzBuzz() == "Fizz"
 //        testFizzBuzz.checkFizzBuzz() == "Buzz" ||
