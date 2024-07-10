@@ -1,6 +1,7 @@
 // 1. The different other available method in case classes are:
 case class House(price:Int, size:String,  location:String, availability: String, totalSqft: Double)
 
+
 val smithsHouse: House = House.apply(price = 390000, size = "3 BHK", location = "Dudley, West Midlands", availability = "Available Immediately", totalSqft = 2600)
 val thacherHouse: House = House(price = 250000, size = "2 BHK", location = "Burton, Staffordshire", availability = "Let Agreed", totalSqft = 3300)
 
