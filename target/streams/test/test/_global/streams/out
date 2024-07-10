@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(week2.wednesday.TwoNumbersSpec, org.scalatest.tools.Framework$$anon$1@2d6f8827, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTwoNumbersSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32madd[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msubtractYFromX[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should subtract y from x[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mmultiply[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should multiply two numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mdivideXFromY[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should divide X from Y *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  5 did not equal 2 (TwoNumbersSpec.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mxIsAMultipleOfY[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should show x is whether a multiple of y[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 128 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 4, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	week2.wednesday.TwoNumbersSpec[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
