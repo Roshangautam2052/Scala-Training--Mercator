@@ -27,4 +27,5 @@ class FizzBuzzSpec extends FlatSpec {
     "string representation of the number if all above conditions are not met" in {
     assert(testFizzBuzz.checkFizzBuzz() == testFizzBuzz.number.toString)
   }
+
 }
