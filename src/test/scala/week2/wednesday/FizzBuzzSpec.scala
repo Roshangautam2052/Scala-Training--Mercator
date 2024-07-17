@@ -2,7 +2,6 @@ package week2.wednesday
 
 import org.scalatest.FlatSpec
 
-
 class FizzBuzzSpec extends FlatSpec {
   val testFizzBuzz = new FizzBuzz(3)
   "checkFizzBuzz" should "check whether the function returns " +
