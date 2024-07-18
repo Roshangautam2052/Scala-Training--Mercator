@@ -9,4 +9,5 @@ class FizzBuzz(var number: Int) {
    else number.toString
  }
 
+}
 
