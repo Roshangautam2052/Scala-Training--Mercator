@@ -1,3 +1,4 @@
+
 package Week3.thursday.afternoontask.extension
 
 object RunExtensionTask extends App {
@@ -46,3 +47,4 @@ println("******Task 10 **********")
 
 
 }
+

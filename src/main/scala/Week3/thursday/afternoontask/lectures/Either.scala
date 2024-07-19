@@ -1,13 +1,14 @@
 package Week3.thursday.afternoontask.lectures
 
 import java.time.LocalDate
+import scala.concurrent.Future
 
 object Either extends App{
  // left -error
   // right - success
 
   def  isEven(x: Int) : Either[String, String] =
-    if (x % 2 == 0) Right(s"$x is even") else Left(s"$x is odd")
+    (if (x % 2 == 0) Right(s"$x is even") else Left(s"$x is odd"))
 
   println(isEven(12))
   println(isEven(13))
@@ -18,9 +19,18 @@ object Either extends App{
 
   case object ISOddError extends NewError(400, "Bad Request in the is odd method:")
 
-  def  isOdd(x: Int) : Either[NewError, String] =
-    if (x % 2 != 0) Right(s"$x is odd") else Left(ISOddError)
+  def  isOdd(x: Int) : Either[NewError, String] = {
+    Thread.sleep(100)
+    if (x % 2 != 0) Right(s"$x is odd")
+    else Left(ISOddError)
+  }
 
+
+
+  def fetchisOddOrError(x:Int): Future[Either[NewError, String]] = Future{
+      isOdd(x)
+  }
+  val result1 = fetchisOddOrError()
   println(isOdd(4))
   println(isOdd(7))
 
