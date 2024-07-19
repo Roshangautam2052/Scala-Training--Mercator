@@ -13,6 +13,7 @@ object PostCode {
       Right(PostCode(mayBePostCode))
     }
     else Left(InvalidPostCodeError("Sorry the postCode is not valid!!"))
+
   }
 
 }
