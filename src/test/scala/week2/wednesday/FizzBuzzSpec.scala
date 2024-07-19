@@ -1,9 +1,10 @@
 package week2.wednesday
 
-import org.scalatest.FlatSpec
+import org.scalatest.{ flatspec}
+import org.scalatest.wordspec.AnyWordSpec
 
 
-class FizzBuzzSpec extends FlatSpec {
+class FizzBuzzSpec extends flatspec.AnyFlatSpec {
   val testFizzBuzz = new FizzBuzz(3)
   "checkFizzBuzz" should "check whether the function returns " +
     "Fizz if divisible by 3 " in {
