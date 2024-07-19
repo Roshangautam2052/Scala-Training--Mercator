@@ -1,4 +1,4 @@
-package Week3.thursday.afternoontask.lectures
+package Week3.thursday.lectures
 
 object ForComp extends App {
   // This uses <- arrow it can call any thing either map

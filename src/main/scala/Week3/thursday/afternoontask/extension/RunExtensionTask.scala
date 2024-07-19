@@ -10,19 +10,31 @@ object RunExtensionTask extends App {
   println(letter)
   println(invalidLetter)
 
-  val letter1: Right[Nothing, Letter] = Right(Letter(Name("Michael"),PostCode("DE13 8ES")))
+  val letter1: Right[Nothing, Letter] = Right(Letter.apply(Name("Michael"),PostCode("DE13 8ES")))
   val invalidLetter2: Left[InvalidNameError, Nothing] = Left(InvalidNameError("The name is not valid"))
 
   println(letter1)
   println(invalidLetter2)
+println("******Task 10 **********")
+  val name1 = Name("Tayamul12131")
+  println(Name.nameOrError(name1.value))
 
-  // maybePostCode
+ println("*******Task 11 ************")
   val postCode = PostCode
   println(postCode.postCodeError("B70 8BS"))
 
-  // nameOrError
-  val name = Name
-  println(name.nameOrError(Name("test")))
+  val letterTest = Letter
+  println("******Task 12 *******")
+
+  val letterWithANumberInName = letterTest.letterOrError("Roshan123455", "DE138ES")
+  val letterWithInvalidPostCode = letterTest.letterOrError("roshan", "B709PZ")
+
+  println(letterWithANumberInName)
+  println(letterWithInvalidPostCode)
+
+
+
+
 
 
 

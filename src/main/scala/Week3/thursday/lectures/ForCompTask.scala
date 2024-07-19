@@ -1,4 +1,4 @@
-package Week3.thursday.afternoontask.lectures
+package Week3.thursday.lectures
 
 object ForCompTask extends App{
     def returnNamesInCapital(names:List[String]): List[String] ={

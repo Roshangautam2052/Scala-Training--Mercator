@@ -1,4 +1,4 @@
-package Week3.thursday.afternoontask.lectures
+package Week3.thursday.lectures
 
 import java.time.LocalDate
 
