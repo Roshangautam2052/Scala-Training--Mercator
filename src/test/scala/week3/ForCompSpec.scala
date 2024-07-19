@@ -1,5 +1,5 @@
 package week3
-import Week3.thursday.afternoontask.lectures.ForComp._
+
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 
