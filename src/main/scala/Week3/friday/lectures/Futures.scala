@@ -1,9 +1,10 @@
-package Week3.friday
+package Week3.friday.lectures
+
 // global is a lazy val --> which is not executed until it is called
 import java.util.concurrent.TimeUnit
 import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.{Await, Future}
 import scala.concurrent.duration.{Duration, FiniteDuration}
+import scala.concurrent.{Await, Future}
 
 object Futures extends App{
 // They act as a placeholder

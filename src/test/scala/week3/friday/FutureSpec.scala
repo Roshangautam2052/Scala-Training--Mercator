@@ -1,6 +1,6 @@
 package week3.friday
 
-import Week3.friday.Futures.{addition, additionInFuture}
+import Week3.friday.lectures.Futures.{addition, additionInFuture}
 import org.scalatest.concurrent.ScalaFutures
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.time.{Millis, Seconds, Span}
