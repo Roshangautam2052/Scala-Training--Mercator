@@ -1,0 +1,64 @@
+Case Objects vs Enumerations in Scala
+Case Objects:
+
+Definition:
+
+Case objects are a feature in Scala used to create singletons with built-in support for pattern matching.
+They are part of the algebraic data types (ADTs) which align with functional programming paradigms.
+Example:
+
+scala
+Copy code
+sealed abstract class CurrencyADT(val name: String, val iso: String)
+
+object CurrencyADT {
+  case object EUR extends CurrencyADT("Euro", "EUR")
+  case object USD extends CurrencyADT("United States Dollar", "USD")
+}
+Advantages:
+
+Type Safety: Compiler ensures pattern matches are exhaustive.
+Better Defaults: Automatically provides implementations for equals, hashCode, and toString.
+Immutability: Case objects are inherently immutable, making them thread-safe.
+Disadvantages:
+
+Iteration: Does not provide built-in ways to iterate over elements.
+String Conversion: No built-in way to get elements from a string.
+
+Enumerations:
+Definition:
+Enumerations are a feature used to define a finite set of named values.
+In Scala, they are purely object-oriented.
+Example:
+object CurrencyEnum extends Enumeration {
+  type Currency = Value
+  val GBP = Value(1, "GBP")
+  val EUR = Value
+}
+Advantages:
+Simplicity: Easy to use and extend.
+Iteration: Built-in support to iterate over values.
+String Conversion: Can get an element from a string using withName.
+Disadvantages:
+
+Type Erasure: All enums have the same type at runtime, losing type information.
+Inheritance Issues: Unrestricted inheritance can lead to incomplete pattern matches.
+When to Use Each
+Use Case Objects (ADTs):
+When type safety and exhaustive pattern matching are critical.
+When you need immutability and better default methods.
+When working in a functional programming paradigm.
+
+Use Enumerations:
+When you need simplicity and ease of iteration.
+When you need to convert strings to enumeration values easily.
+When type safety and exhaustive pattern matching are less critical.
+
+Scala 3 Enhancements
+Scala 3 aims to unify ADTs and enums with a new syntax that addresses the disadvantages of both approaches and provides
+compatibility with Java Enums.
+
+Conclusion
+Choosing between case objects and enumerations in Scala depends on the specific needs of your application,
+such as the importance of type safety, the need for iteration, and the paradigm (functional vs. object-oriented) you are working in.
+Scala 3's new syntax promises to combine the best of both worlds, providing a more flexible and powerful way to handle enumerated types

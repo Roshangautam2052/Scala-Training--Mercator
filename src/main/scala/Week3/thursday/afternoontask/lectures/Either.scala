@@ -36,7 +36,6 @@ object Either extends App{
 
   val result1 = fetchisOddOrError(4)
 
-  val result1 = fetchisOddOrError()
 
   println(isOdd(4))
   println(isOdd(7))
