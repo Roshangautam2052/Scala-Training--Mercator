@@ -1,7 +1,9 @@
 package Week3.thursday.afternoontask.lectures
 
 import java.time.LocalDate
+
 import scala.concurrent.ExecutionContext.Implicits.global
+
 import scala.concurrent.Future
 
 object Either extends App{
@@ -31,7 +33,11 @@ object Either extends App{
   def fetchisOddOrError(x:Int): Future[Either[NewError, String]] = Future{
       isOdd(x)
   }
+
   val result1 = fetchisOddOrError(4)
+
+  val result1 = fetchisOddOrError()
+
   println(isOdd(4))
   println(isOdd(7))
 

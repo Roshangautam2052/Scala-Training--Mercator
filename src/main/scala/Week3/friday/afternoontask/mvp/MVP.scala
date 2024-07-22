@@ -1,5 +1,6 @@
 package Week3.friday.afternoontask.mvp
 
+
 import Week3.thursday.afternoontask.extension.{GenericPostageError, Letter, Name, PostCode, ValidLetter}
 import Week3.thursday.afternoontask.extension.Letter.letterOrError
 
@@ -8,9 +9,13 @@ import scala.concurrent.duration.{Duration, FiniteDuration}
 import scala.concurrent.{Await, ExecutionContext, Future}
 import scala.util.{Failure, Success}
 
+import scala.concurrent.{ExecutionContext, Future}
+
+
 
 object MVP extends App{
   implicit val ec: ExecutionContext = ExecutionContext.global
+
 
   def fetchLetter(): Future[Letter] = Future{
     Thread.sleep(1000)
@@ -27,5 +32,8 @@ object MVP extends App{
   val waitTime: FiniteDuration = Duration(5,TimeUnit.SECONDS)
   println(Await.ready(eventualLetter,waitTime))
   println(checkError)
+
+  
+
 
 }
