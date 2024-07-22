@@ -28,6 +28,4 @@ object MVP extends App{
   println(Await.ready(eventualLetter,waitTime))
   println(checkError)
 
-
-
 }
