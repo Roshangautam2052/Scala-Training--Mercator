@@ -6,7 +6,6 @@ case class PostCode(value:String) {
 
 
 object PostCode {
-
   def postCodeError(mayBePostCode:String):Either[InvalidPostCodeError, PostCode] ={
     val postCode = mayBePostCode.split(" ")
     if(postCode.length ==2 && postCode.forall(_.nonEmpty)){
