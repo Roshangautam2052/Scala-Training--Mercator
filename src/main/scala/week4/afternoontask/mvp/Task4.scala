@@ -6,7 +6,7 @@ object Task4 extends App{
 
   val numberOfChoice: Int = 5500
   @tailrec
-  def sumOFNumbersToGivenChoice(n: Int, acc: Int):Int ={
+  private def sumOFNumbersToGivenChoice(n: Int, acc: Int):Int ={
     if (n<=0) acc
     else{
      sumOFNumbersToGivenChoice(n-1, acc+n)
