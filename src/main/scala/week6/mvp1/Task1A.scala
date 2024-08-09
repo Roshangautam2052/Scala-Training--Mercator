@@ -6,7 +6,7 @@ object Task1A extends App {
     number * 2
   }
   def applyTwice(value:Int,function:(Int) => Int):Int = {
-      function(value) + function(value)
+      function(function(value))
   }
 
   println(applyTwice(12, takeInput))
