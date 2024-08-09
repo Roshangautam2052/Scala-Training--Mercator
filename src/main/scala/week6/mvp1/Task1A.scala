@@ -1,4 +1,4 @@
-package week6.mvp
+package week6.mvp1
 
 object Task1A extends App {
 

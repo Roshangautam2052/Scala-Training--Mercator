@@ -1,4 +1,4 @@
-package week6.mvp.Task1B
+package week6.mvp1.task1B
 
 trait OperationLists{
 
